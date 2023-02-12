@@ -1,0 +1,645 @@
+@import Url("Https://Fonts.Googleapis.Com/Css2?Family=Poppins:wght@400;500;600;700&Display=Swap");
+
+* {
+
+    margin: 0;
+    margin-left: 0;
+    padding: 0;
+
+    box-sizing: Border-Box;
+
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+
+A {
+    Text-Decoration: None;
+}
+
+.Hero {
+
+    Width: 100%;
+
+    Height: 580vh;
+	
+    Background: Url(black.jpg);
+    Background-Size: Cover;
+}
+
+
+Nav {
+
+    Display: Flex;
+
+    float: right;
+
+    Justify-Content: Space-Between;
+
+    Padding: 30px 150px;
+
+    Color: #00ffb7;
+}
+
+
+.Logo {
+
+    Max-Height: 80px;
+
+    border-radius: 50%;
+}
+
+
+.Profile {
+
+    Max-Height: 300px;
+
+    border-radius: 50%;
+    Position: Absolute;
+    right: 0;
+    bottom: 156px;
+    margin-right: 80px;
+}
+
+
+
+
+Nav Ul Li {
+
+    List-Style: None;
+
+    Display: Inline-Block;
+
+    Padding: 10px 20px;
+
+}
+
+Nav Ul Li A {
+
+    Color: #00ffb7;
+    Position: Relative;
+
+    Padding: 20px 0px
+}
+
+Nav Ul Li A:hover {
+
+    Color: #00ffb7;
+}
+
+Nav Ul Li A::after {
+
+    Content: "";
+
+    Position: Absolute;
+
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: #00ffb7;
+    visibility: visible;
+    Transition: 0.2s;
+
+
+}
+
+
+Nav Ul Li A:hover:after {
+
+    Width: 100%;
+
+}
+
+
+.Btn {
+
+    Color: #Fff;
+
+    Font-Size: 16px;
+
+    Text-Transform: Uppercase;
+
+    Letter-Spacing: 2px;
+
+    Padding: 18px 30px;
+
+    Border-Radius: 500px;
+
+    Display: Inline-Block;
+
+    Font-Weight: 500;
+
+    Transition: All 0.4s Ease-In-Out;
+
+    Background-Size: 152% 100%;
+
+    Background: #Fd4766;
+
+    Border: 2px Solid #Fd4766;
+    left: 0;
+    margin-left: 50px;
+}
+
+
+ .Btn:hover {
+
+    Background: Transparent;
+
+    Border-Color: #Fd4766;
+
+    Color: #Fd4766;
+
+}
+
+
+.Content {
+
+    Position: Absolute;
+
+    Top: 35%;
+
+    Left: 8%;
+
+}
+
+
+.Content .Title {
+
+  
+
+    Font-Size: 15px;
+
+    Text-Transform: Uppercase;
+
+    Letter-Spacing: 4px;
+
+    Display: Inline-Block;
+
+    Margin-Bottom: 20px;
+
+    color:#00ffb7; 
+}
+
+
+.Content H1 {
+
+    color: #6c757d;
+
+    Font-Size: 75px;
+
+    Font-Weight: 900;
+
+    Line-Height: 90px;
+
+    Text-Transform: Inherit;
+
+    Width: 70%;
+
+}
+
+
+.Content H1 Span {
+
+    Color: #Fd4766;
+
+}
+ 
+ .Content H2 {
+    width: 150px 0;
+	
+    Color: #Fd4766;
+
+}
+   
+    /*Division Line*/
+   
+.divider{
+	 width: 100%;
+	 height: 5px;
+	 background-color:#00ffb7;
+     display: inline-block;
+	 margin-left: -50px;
+ }
+
+#text {
+    width: 155px 0;
+	
+    Color: #ffc107;
+}
+.Content P {
+
+    Width: 50%;
+
+    Color: #6c757d;
+
+    Margin-Top: 25px;
+
+    Margin-Bottom: 30px;
+
+}
+
+     /* About*/
+ 
+ .column-1a{
+  float: left;
+  width: 40%;
+  padding: 0px;
+  padding-left:0px;
+  padding-right: 0px;
+  padding-bottom:0;
+  height:400px;
+  margin:30px;
+  margin-right:-30px;
+  margin-bottom: 10%;
+  background-color:black;
+  color: #Fff;
+}
+ .abouttext h2{
+	   color: #17a2b8;
+   }
+
+     
+	 /* Skills section*/
+	  
+ .skill h1{
+   margin-left: 8rem;
+	margin-top: 5rem;
+	
+    font-weight: bold;
+	text-align: center;
+	color:#00ffb7;
+   
+}
+
+
+ *{
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 200vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #;
+}
+
+.skills{
+  width: 100%;
+  max-width: 600px;
+  padding: 0 20px;
+}
+
+.skill-name{
+  font-size: 18px;
+  font-weight: 700;
+  color: #f1f1f1;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.skill-bar{
+  height: 14px;
+  background: #282828;
+  border-radius: 3px;
+}
+
+.skill-per{
+  height: 14px;
+  background: #d13639;
+  border-radius: 3px;
+  position: relative;
+  animation: fillBars 2.5s 1;
+}
+
+.skill-per::before{
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background: #f1f1f1;
+  border-radius: 4px;
+  font-size: 12px;
+  top: -35px;
+  right: 0;
+  transform: translateX(50%);
+}
+
+.skill-per::after{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #f1f1f1;
+  top: -20px;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
+}
+
+@keyframes fillBars{
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
+}
+
+
+	 /* Education section*/
+	 
+ .edu_title h1{
+     margin-left: 8rem;
+	margin-top: 4rem;
+	font-size: 5rem;
+    font-weight: bold;
+	text-align: center;
+	color:#00ffb7;
+   
+}
+	 
+	 
+	 
+	 
+ *{
+			box-sizing: border-box;
+			margin: 0;
+			padding:1 5px;
+		}
+		
+ :root{
+--main-color: #18d26e;
+ --box-bg: rgba(21,21,21,0.8);
+--txt_heading: #858585;
+--input-bg:rgba(255,255,255,0.08);
+--icons-bg: #2d2d2d;
+ }
+ 
+ 
+ body{
+	 
+min-height: 100vh;
+
+font-family: "poppins", sans-serif;
+
+display: flex;
+
+flex-direction: column;
+
+align-items: center;
+
+justify-content: center;
+ }
+
+body{
+	
+min-height: 100vh;
+
+font-family: "poppins", sans-serif;
+
+display: flex;
+
+flex-direction: column;
+
+align-items: center;
+
+justify-content: center;
+ }
+
+   
+   .edu_container h2{
+	color: #00ffb7;
+	margin-top: 10px;
+}
+
+    .edu_container h3{
+	color: #fff;
+	margin-top: -10px;
+	margin-left: 6rem;
+	font-size: 1rem;
+}
+    
+	.edu-icons{
+	font-size: 2.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	color: var(--main-color);
+	padding: 2rem;
+}
+ 
+
+
+      /* Contact section*/
+
+        *{
+			box-sizing: border-box;
+			margin-left: -5px;
+			padding:1 5px;
+		}
+		
+ :root{
+--main-color: #18d26e;
+ --box-bg: rgba(21,21,21,0.8);
+--txt_heading: #858585;
+--input-bg:rgba(255,255,255,0.08);
+--icons-bg: #2d2d2d;
+ }
+ 
+ 
+ body{
+
+min-height: 100vh;
+
+font-family: "poppins", sans-serif;
+
+display: flex;
+
+flex-direction: column;
+
+align-items: center;
+
+justify-content: center;
+ }
+ 
+.container{
+ max-width: 1280px;
+ background: #rgba(0,0,0,0.9);
+ margin: 2rem auto;
+ width: 100%;
+ color: #fff;
+ margin-top:20px 0;
+}
+
+
+
+.container h2{
+    margin-left: -2rem;
+	margin-top: 5rem;
+	font-size: 2.2rem;
+    font-weight: bold;
+	text-align: center;
+	color:#00ffb7;
+
+} 
+
+ .inside_container h3{
+	color: #fff;
+	margin-top: 10px;
+}
+
+.cntct{
+	color: var(--txt_heading);
+	position: relative;
+}
+
+.cntct::after{
+	content: "";
+	position: absolute;
+	top: 11px;
+	left: 90px;
+	height: 2px;
+	width: 15%;
+	background: var(--main-color);
+}
+
+.inside_container{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.2rem;
+	margin: 1rem 0;
+}
+
+.box{
+	padding: 1.4 rem;
+	background: var(--box-bg);
+	display:flex;
+	flex-direction:column;
+}
+
+.head-icons{
+	display: flex;
+}
+
+.headings{
+	color: var(--txt_heading);
+	font-size: 1.3rem;
+	margin-left: 1.2rem;
+}
+
+
+
+ .inside_container p{
+	font-size: rem;
+	margin-left: 4.4rem;
+	color: #00ffb7;
+	
+}
+ 
+   
+  
+.head-icons .icons{
+	font-size: 2.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--main-color);
+	padding: 0.3rem;
+}
+
+
+.head-icons span{
+	background: var(--icons-bg); 
+	border-radius: 50%;
+	padding: 0.3rem;
+}
+
+
+
+ .social_icons i{
+	 font-size: 2.5rem;
+	 padding: 0 0.4rem;
+	 cursor: pointer;
+     transition: 0 0.3s;
+ }
+ 
+ .social_icons i:hover{
+	 color:#Fd4766 ;
+ }
+ 
+ .box:last-child{
+	 grid-column: 1/3;
+	 grid-row: 3;
+ }
+ 
+ .form input,textarea{
+	 padding: 0.6rem 0.5rem;
+	 margin: 0.3rem 0;
+	 outline: none;
+	 font-size: 1.5rem;
+	 background: var(--input-bg);
+	 border: none;
+	 color: #fff;
+	 font-family: "poppins";
+	 
+ }
+ 
+ .form-control{
+	 width: 90%;
+ }
+ 
+ .short-fields{
+	 width: 90%;
+ }
+ 
+ .form button{
+	 
+	 display: block;
+	 margin: 1.5rem auto;
+	 background: #18d26e;
+	 padding: 0.6rem 1.2rem;
+	 cursor: pointer;
+	 border-radius: 04px;
+	 font-size: 1rem;
+	 transition: all 0.3s;
+	 color: #fff;
+ }
+ 
+ .form button:hover{
+	 background: #13a154;
+	 color:#30f8c5;
+ }
+ 
+ 
+ 
+ @media(max-width: 1280px){
+	 .container{
+		 max-widtht: 1100px;
+		 margin: 0rem auto;
+	 }
+ 
+ .content h2{
+	 font-size: 2rem;
+ }
+ 
+ .short-fields{
+	 width: 49.7%;
+ }
+ }
+ 
+  
+ .dividerfoot{
+	 width: 100%;
+	 height: 5px;
+	 background-color:#00ffb7;
+     display: inline-block;
+	 margin-left: 0px;
+ }
+	 
+ 
+ 
