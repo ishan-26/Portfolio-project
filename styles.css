@@ -62,7 +62,11 @@ Nav {
     margin-right: 80px;
 }
 
-
+@media (max-width: 768px) { /* Adjust the max-width as needed */
+    .Profile {
+        display: none;
+    }
+}
 
 
 Nav Ul Li {
