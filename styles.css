@@ -50,7 +50,6 @@ Nav {
     border-radius: 50%;
 }
 
-
 .Profile {
     max-height: 300px;
     border-radius: 50%;
@@ -60,13 +59,14 @@ Nav {
     margin-right: 80px;
 }
 
-@media (max-width: 768px) { /* Adjust the max-width as needed */
+@media (max-width: 768px) {
     .Profile {
-        max-height: 100px; /* Adjust the height for smaller screens */
+        max-height: 80px; /* Adjust the height for smaller screens */
         margin-right: 20px; /* Adjust the margin for smaller screens */
-        bottom: 20px; /* Adjust the bottom position for smaller screens */
+        bottom: 100px; /* Adjust the bottom position for smaller screens */
     }
 }
+
 
 
 Nav Ul Li {
