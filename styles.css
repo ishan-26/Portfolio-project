@@ -636,7 +636,7 @@ justify-content: center;
  }
  }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .Profile {
         position: relative; /* Change positioning to relative */
         max-height: auto; /* Reset max-height */
