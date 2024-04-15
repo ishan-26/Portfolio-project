@@ -619,7 +619,11 @@ justify-content: center;
 	 color:#30f8c5;
  }
  
- 
+ @media only screen and (max-width: 768px) {
+    .Nav {
+        padding: 30px 50px; /* Adjust padding for smaller screens */
+    }
+}
  
  @media(max-width: 1280px){
 	 .container{
@@ -636,7 +640,7 @@ justify-content: center;
  }
  }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .Profile {
         position: relative; /* Change positioning to relative */
         max-height: auto; /* Reset max-height */
