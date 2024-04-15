@@ -52,11 +52,9 @@ Nav {
 
 
 .Profile {
-
-    Max-Height: 300px;
-
+    max-height: 300px;
     border-radius: 50%;
-    Position: Absolute;
+    position: absolute;
     right: 0;
     bottom: 156px;
     margin-right: 80px;
@@ -64,7 +62,9 @@ Nav {
 
 @media (max-width: 768px) { /* Adjust the max-width as needed */
     .Profile {
-        display: none;
+        max-height: 100px; /* Adjust the height for smaller screens */
+        margin-right: 20px; /* Adjust the margin for smaller screens */
+        bottom: 20px; /* Adjust the bottom position for smaller screens */
     }
 }
 
