@@ -59,18 +59,6 @@ Nav {
     margin-right: 80px;
 }
 
-@media only screen and (max-width: 768px) {
-    .Profile {
-        max-height: 80px; /* Adjust the height for smaller screens */
-        margin-right: 20px; /* Adjust the margin for smaller screens */
-        bottom: 120px; /* Adjust the bottom position for smaller screens */
-        right: 50%; /* Move the profile picture to the center horizontally */
-        transform: translateX(50%); /* Center horizontally using transform */
-    }
-}
-
-
-
 
 Nav Ul Li {
 
@@ -621,17 +609,8 @@ justify-content: center;
 	 background: #13a154;
 	 color:#30f8c5;
  }
-@media only screen and (max-width: 768px) {
-    .Profile {
-        max-height: 80px; /* Adjust the height for smaller screens */
-        margin-right: 20px; /* Adjust the margin for smaller screens */
-        bottom: 120px; /* Adjust the bottom position for smaller screens */
-        right: 50%; /* Move the profile picture to the center horizontally */
-        transform: translateX(50%); /* Center horizontally using transform */
-    }
-}
 
- 
+
  @media only screen and (max-width: 768px) {
     .Nav {
        padding: 30px 80px; /* Adjust padding for smaller screens */
