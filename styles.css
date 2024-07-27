@@ -556,8 +556,9 @@ justify-content: center;
 
 
 
- .social_icons p{
+ .social_icons a{
 	 font-size: 2.5rem;
+	 color: #00ffb7;
 	 padding: 0 0.4rem;
 	 cursor: pointer;
      transition: 0 0.3s;
