@@ -644,23 +644,12 @@ justify-content: center;
  }
  }
 
-@media only screen and (max-width: 768px) {
-    .Profile {
-        position: relative; /* Change positioning to relative */
-        max-height: auto; /* Reset max-height */
-        bottom: auto; /* Reset bottom */
-        margin-right: auto; /* Reset margin-right */
-        margin-top: 20px; /* Adjust margin from the top */
-        text-align: center; /* Center the profile picture */
-    }
-}
-
- 
   
  .dividerfoot{
 	 width: 100%;
 	 height: 5px;
 	 background-color:#00ffb7;
+	 
      display: inline-block;
 	 margin-left: 0px;
  }
