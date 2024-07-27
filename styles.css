@@ -55,9 +55,8 @@ Nav {
     border-radius: 50%;
     position: absolute;
     right: 0;
-    bottom: 156px;
+    bottom: 176px; /* Decreased from 156px to 176px */
     margin-right: 80px;
-    margin-top: -20px; 
 }
 
 
