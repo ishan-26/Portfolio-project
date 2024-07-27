@@ -615,11 +615,7 @@ justify-content: center;
 /* Profile image adjustments for smaller screens */
 @media only screen and (max-width: 768px) {
     .Profile {
-        max-height: 80px; /* Adjust the height for smaller screens */
-        margin-right: 20px; /* Adjust the margin for smaller screens */
-        bottom: 120px; /* Adjust the bottom position for smaller screens */
-        right: 50%; /* Move the profile picture to the center horizontally */
-        transform: translateX(50%); /* Center horizontally using transform */
+  	display:none;
     }
 }
 
