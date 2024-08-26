@@ -51,13 +51,12 @@ Nav {
 }
 
 .Profile {
-    max-height: 300px;
-    border-radius: 50%;
-    position: absolute;
-    right: 0;
-    bottom: 180px;
-    margin-right: 80px;
-    display: block;
+    max-height: 300px; /* Keeps the max height but ensures it scales */
+    width: auto; /* Ensures width is auto to maintain aspect ratio */
+    border-radius: 50%; /* Maintains the circular shape */
+    position: relative; /* Changed to relative to keep within container */
+    margin: 0 auto; /* Centers the image horizontally within the container */
+    display: block; /* Keeps the image as a block element */
 }
 
 
@@ -655,6 +654,15 @@ justify-content: center;
      display: inline-block;
 	 margin-left: 0px;
  }
+
+@media (max-width: 768px) {
+    .Profile {
+        max-height: 150px; /* Smaller max height for mobile */
+        bottom: 0; /* Remove the bottom positioning */
+        margin: 0 auto; /* Centers the image */
+        right: auto; /* Removes right positioning */
+    }
+}
 	 
  
  
