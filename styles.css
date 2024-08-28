@@ -54,8 +54,9 @@ Nav {
 .profile-container {
   display: flex;
   align-items: center; /* Vertically center the items */
-  flex-direction: row; /* Row direction to place image on the right */
+  flex-direction: column; /* Stack image above text by default (small screens) */
   justify-content: center; /* Center the content horizontally */
+  text-align: center; /* Center align text and image */
   margin: 0 auto; /* Centers the container horizontally */
 }
 
@@ -64,25 +65,25 @@ Nav {
   max-height: 300px; /* Keeps the max height but ensures it scales */
   width: auto; /* Ensures width is auto to maintain aspect ratio */
   border-radius: 50%; /* Maintains the circular shape */
-  margin-left: 20px; /* Adds space to the left of the image */
+  margin-bottom: 20px; /* Adds space below the image on small screens */
   display: block; /* Keeps the image as a block element */
 }
 
 /* Text styling */
 .profile-text {
-  text-align: left; /* Left align text */
+  text-align: center; /* Center align text */
 }
 
-/* Optional: Responsive adjustments for smaller screens */
-@media (max-width: 768px) { /* For screens smaller than 768px */
+/* Layout adjustments for larger screens */
+@media (min-width: 768px) { /* For screens larger than 768px */
   .profile-container {
-    flex-direction: column; /* Stack image below text on small screens */
-    text-align: center; /* Center text on small screens */
+    flex-direction: row; /* Align items in a row for larger screens */
+    text-align: left; /* Left align text in larger screens */
   }
 
   .Profile {
-    margin-left: 0; /* Remove left margin for small screens */
-    margin-top: 20px; /* Add space above the image for small screens */
+    margin-bottom: 0; /* Remove bottom margin for larger screens */
+    margin-left: 20px; /* Adds space to the left of the image for larger screens */
   }
 }
 
