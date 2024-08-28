@@ -50,14 +50,42 @@ Nav {
     border-radius: 50%;
 }
 
-.Profile {
-    max-height: 300px; /* Keeps the max height but ensures it scales */
-    width: auto; /* Ensures width is auto to maintain aspect ratio */
-    border-radius: 50%; /* Maintains the circular shape */
-    position: relative; /* Changed to relative to keep within container */
-    margin: 0 auto; /* Centers the image horizontally within the container */
-    display: block; /* Keeps the image as a block element */
+/* Container for the profile section */
+.profile-container {
+  display: flex;
+  align-items: center; /* Vertically center the items */
+  flex-direction: row; /* Row direction to place image on the right */
+  justify-content: center; /* Center the content horizontally */
+  margin: 0 auto; /* Centers the container horizontally */
 }
+
+/* Profile photo styling */
+.Profile {
+  max-height: 300px; /* Keeps the max height but ensures it scales */
+  width: auto; /* Ensures width is auto to maintain aspect ratio */
+  border-radius: 50%; /* Maintains the circular shape */
+  margin-left: 20px; /* Adds space to the left of the image */
+  display: block; /* Keeps the image as a block element */
+}
+
+/* Text styling */
+.profile-text {
+  text-align: left; /* Left align text */
+}
+
+/* Optional: Responsive adjustments for smaller screens */
+@media (max-width: 768px) { /* For screens smaller than 768px */
+  .profile-container {
+    flex-direction: column; /* Stack image below text on small screens */
+    text-align: center; /* Center text on small screens */
+  }
+
+  .Profile {
+    margin-left: 0; /* Remove left margin for small screens */
+    margin-top: 20px; /* Add space above the image for small screens */
+  }
+}
+
 
 
 Nav Ul Li {
