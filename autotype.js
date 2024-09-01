@@ -123,7 +123,6 @@ const exampleText = [
   " Stocks Trader...|",
   " Gamer...|",
   " Aviation Enthusiast ...|",
-  " Avid Reader...|",
   
   
 ];
