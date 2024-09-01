@@ -22,7 +22,7 @@ A {
 
     Width: 100%;
 
-    Height: 100vh;
+    Height: auto;
 	
     Background: Url(black.jpg);
     Background-Size: Cover;
