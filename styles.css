@@ -33,9 +33,7 @@ Nav {
 
     display: flex;
 
-    float: right;
-
-    justify-content: space-between;
+    justify-content: flex-end;
 
     padding: 30px 150px;
 
@@ -52,13 +50,14 @@ Nav {
 
 /* Container for the profile section */
 .profile-container {
-  display: flex;
-  align-items: center; /* Vertically center the items */
-  flex-direction: column; /* Stack image above text by default (small screens) */
-  justify-content: center; /* Center the content horizontally */
-  text-align: center; /* Center align text and image */
-  margin: 0 auto; /* Centers the container horizontally */
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* Default stack for small screens */
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
 }
+
 
 /* Profile photo styling */
 .Profile {
@@ -684,6 +683,11 @@ justify-content: center;
         bottom: 0; /* Remove the bottom positioning */
         margin: 0 auto; /* Centers the image */
         right: auto; /* Removes right positioning */
+    }
+}
+@media (min-width: 768px) {
+    .profile-container {
+        flex-direction: row; /* Row for larger screens for better layout */
     }
 }
 
