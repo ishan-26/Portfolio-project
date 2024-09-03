@@ -598,8 +598,8 @@ justify-content: center;
 
 .contact-form .container {
   flex: 0 1 700px;
-  margin: -50px;
-  padding: 10px;
+  margin: -30px;
+  padding: 30px;
 }
 
 .contact-form .screen {
