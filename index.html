@@ -1,300 +1,270 @@
-<!DOCTYPE Html>
+<!DOCTYPE html>
 
-<Html Lang="En">
+<html lang="en">
 
-<Head>
+<head>
 
-    <Meta Charset="UTF-8" />
+    <meta charset="UTF-8" />
  
-    <Title>Personal Portfolio Website</Title>
+    <title>Personal Portfolio Website</title>
 
-    <!----CSS Link----->
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
 
-    <Link Rel="stylesheet" Href="styles.css" />
+    <style>
+        footer {
+            position: relative;
+            height: 5px;
+            width: 100%;
+            margin-top: 5rem;
+            margin-left: -5rem;
+        }
 
-    <Link Rel="stylesheet" Href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    
-	<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
-	
+        p.copyright {
+            position: absolute;
+            width: 100%;
+            color: #9370db;
+            line-height: 40px;
+            font-size: 2em;
+            text-align: center;
+            bottom: 0;
+        }
+    </style>
 
-<style>
-
-    footer {
-        position: relative;
-        height: 5px;
-        width: 100%;
-		margin-top: 5rem;
-		margin-left: -5rem;
-		
-    }
-
-    p.copyright {
-        position: absolute;
-        width: 100%;
-        color: #9370DB;
-        line-height: 40px;
-        font-size: 2em;
-        text-align: center;
-        bottom:0;
-    }
-</style>
- 
-
-</Head>
- <style>
+    <style>
         /* Add your CSS here */
         body, html {
             scroll-behavior: smooth; /* Enables smooth scrolling */
         }
-</style>
+    </style>
 
-<Body>
+</head>
 
-    <Div Class="Hero">
-        <Div Class="Logo">
-            <Img Src="logo.png" Class="Logo" />
+<body>
 
-            <Nav>
+    <div class="hero">
+        <div class="logo">
+            <img src="logo.png" class="logo" />
 
-                <Img Src="profile.png" Class="Profile" />
+            <nav>
 
-                <Ul>
+                <img src="profile.png" class="profile" />
 
-        <Li><A Href="#">Home</A></Li>
-        <Li><A Href="#abouttext">About</A></Li>
-        <Li><A Href="#skill">Skills</A></Li>
-        <Li><A Href="#edu_title">Education</A></Li>
-        <Li><A Href="#contact">Contact</A></Li>
-                </Ul>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#abouttext">About</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#edu_title">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
 
-            </Nav>
+            </nav>
 
-            <Div Class="Content">
-
-
-                <Span class="Title">Coder | Finance & Investment | Aviation Enthusiast</Span>
-                <H1>
-                    Hello,I'm <Span>Ishan</Span>
-                </H1>
-            <br>
-			<br>
-            <h2> I'm a <span id="text"></span></h2>
-             <br>
-			 <br>
-               <br>
-			   <div class="cv">
-                        <A Href="https://drive.google.com/file/d/1qEGkKPriiklHwQTgyQooX3bGOrVd5t7S/view?usp=drive_link" Class="Btn">Download CV</A>
+            <div class="content">
+                <span class="title">Coder | Finance & Investment | Aviation Enthusiast</span>
+                <h1>
+                    Hello, I'm <span>Ishan</span>
+                </h1>
+                <br>
+                <br>
+                <h2> I'm a <span id="text"></span></h2>
+                <br>
+                <br>
+                <br>
+                <div class="cv">
+                    <a href="https://drive.google.com/file/d/1qEGkKPriiklHwQTgyQooX3bGOrVd5t7S/view?usp=drive_link" class="btn">Download CV</a>
                 </div>
-				
-				<br>
+
                 <br>
-				<br>
-				<br>
-				<br>
                 <br>
-				<br>
-			<span class="divider"></span>
-                 <!-----About-------->
-			<div class ="column-1a" id= "abouttext">
-               <table class="table-style">
-    <tr>
-       <td><img src="allaboutme.png" height="400" width="400"></td>
-	  </tr>
-	   
-	     </table>
-      </div>
-              
-			  <div class="column-1a">
-			  <br>
-			  <br>
-			 <div class="abouttext">
-     <h2>" I am a B.E student with majors in Computer Science (2025). I am passionate about the Technology.<br><br>I also have a keen interest in Aviation & the Stock Market. I'm always open to chatting about the stuff related to the Technology, Aviation & Stock market.<br><br> I love collaborating and making connections and would love for you to connect with me."
-		  </h2>
-		 </div>
-    <table class="table-style">
-      
-     </table>
-     </div>
-			<br>
                 <br>
-				<br>								
-				<span class="divider"></span>
+                <br>
+                <br>
+                <br>
+                <br>
+                <span class="divider"></span>
 
-				 <!--------SKILLS------>
-				<div class="skill" id ="skill">
-				<h1>Skills</h1>
-				</div>
-				
-				<div class="skills">
-
-
-     <div class="skill">
-    <div class="skill-name">C/C++</div>
-    <div class="skill-bar">
-      <div class="skill-per" per="70%" style="max-width:70%"></div>
-    </div>
-  </div>
-
-  <div class="skill">
-    <div class="skill-name">React</div>
-    <div class="skill-bar">
-      <div class="skill-per" per="80%" style="max-width:80%"></div>
-    </div>
-  </div>
-  
-   <div class="skill">
-    <div class="skill-name">HTML</div>
-    <div class="skill-bar">
-      <div class="skill-per" per="80%" style="max-width:80%"></div>
-    </div>
-  </div>
-
-  <div class="skill">
-    <div class="skill-name">CSS</div>
-    <div class="skill-bar">
-      <div class="skill-per" per="50%" style="max-width:50%"></div>
-    </div>
-  </div>
-
-  <div class="skill">
-    <div class="skill-name">Javascript</div>
-    <div class="skill-bar">
-      <div class="skill-per" per="70%" style="max-width:80%"></div>
-    </div>
-  </div>
-    
-  </div>
-  <br>
-    <br>
-	  <br>
-	    <br>
-		  <br>
-		<span class="divider"></span>
-           
-
-					
-
-           <!-----Education-->
-	        
-				<div class="edu_title" id="edu_title">
-				<h1>Education</h1>
-				</div>
-				<br>
-				<div class="edu_container">
-				<div class="box">
-				<div class="edu-icons">
-				<span><i class='bx bx-laptop'></i></span>
-			
-				<h2 class="headings">Gogte Institute of Technology</h2>
-                 </div>
-				 <h3> B.E in Computer Science <br><br> 2021-2025<br><br> CGPA : NA </h3>
-                 </div>			
-                
-				
-				<div class="edu_container">
-				<div class="box">
-				<div class="edu-icons">
-				<span><i class='bx bx-atom'></i></span>
-			
-				<h2 class="headings">GSS College</h2>
-                 </div>
-				 <h3> PUC Science <br><br> 2019-2021<br><br> Grade : 90% </h3>
-                 </div>			
-  
-                   
-				   <div class="edu_container">
-				<div class="box">
-				<div class="edu-icons">
-				<span>  </i><i class='bx bxs-pencil'></i></span>
-			
-				<h2 class="headings">St.Xavier's High School</h2>
-                 </div>
-				 <h3> High School<br><br> 2007-2019</h3>
-				 <br>
-				 <br>	
-                 </div>		
-				 
-				</div>
+                <!-----About-------->
+                <div class="column-1a" id="abouttext">
+                    <table class="table-style">
+                        <tr>
+                            <td><img src="allaboutme.png" height="400" width="400"></td>
+                        </tr>
+                    </table>
                 </div>
-				</div>
-				   <br>
-	  <br>
-	    <br>
-		  <br>
-		  <span class="divider"></span>
-				 <!----Contact---->
+
+                <div class="column-1a">
+                    <br>
+                    <br>
+                    <div class="abouttext">
+                        <h2>" I am a B.E student with majors in Computer Science (2025). I am passionate about Technology.<br><br>I also have a keen interest in Aviation & the Stock Market. I'm always open to chatting about stuff related to Technology, Aviation & Stock market.<br><br> I love collaborating and making connections and would love for you to connect with me."
+                        </h2>
+                    </div>
+                    <table class="table-style">
+                    </table>
+                </div>
+                <br>
+                <br>
+                <br>								
+                <span class="divider"></span>
+
+                <!--------SKILLS------>
+                <div class="skill" id="skill">
+                    <h1>Skills</h1>
+                </div>
+
+                <div class="skills">
+                    <div class="skill">
+                        <div class="skill-name">C/C++</div>
+                        <div class="skill-bar">
+                            <div class="skill-per" per="70%" style="max-width:70%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-name">React</div>
+                        <div class="skill-bar">
+                            <div class="skill-per" per="80%" style="max-width:80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-name">HTML</div>
+                        <div class="skill-bar">
+                            <div class="skill-per" per="80%" style="max-width:80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-name">CSS</div>
+                        <div class="skill-bar">
+                            <div class="skill-per" per="50%" style="max-width:50%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-name">Javascript</div>
+                        <div class="skill-bar">
+                            <div class="skill-per" per="70%" style="max-width:80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <span class="divider"></span>
+
+                <!-----Education-->
+                <div class="edu_title" id="edu_title">
+                    <h1>Education</h1>
+                </div>
+                <br>
+                <div class="edu_container">
+                    <div class="box">
+                        <div class="edu-icons">
+                            <span><i class='bx bx-laptop'></i></span>
+                            <h2 class="headings">Gogte Institute of Technology</h2>
+                        </div>
+                        <h3> B.E in Computer Science <br><br> 2021-2025<br><br> CGPA : NA </h3>
+                    </div>			
+
+                    <div class="edu_container">
+                        <div class="box">
+                            <div class="edu-icons">
+                                <span><i class='bx bx-atom'></i></span>
+                                <h2 class="headings">GSS College</h2>
+                            </div>
+                            <h3> PUC Science <br><br> 2019-2021<br><br> Grade : 90% </h3>
+                        </div>			
+
+                        <div class="edu_container">
+                            <div class="box">
+                                <div class="edu-icons">
+                                    <span><i class='bx bxs-pencil'></i></span>
+                                    <h2 class="headings">St.Xavier's High School</h2>
+                                </div>
+                                <h3> High School<br><br> 2007-2019</h3>
+                                <br>
+                                <br>	
+                            </div>		
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <span class="divider"></span>
+
+                <!----Contact---->
                 <div class="container" id="contact">
-				
-				<h2>Contact Me</h2>
-				</div>
-				
-				<div class="inside_container">
-				<div class="box">
-				<div class="head-icons">
-				<span><i class="bx bx-map icons"></i></span>
-				<h3 class="headings">My Address</h3>
-                 </div>
-				 <p> Belgaum. KA. India -590005</p>
-                 </div>				 
-				
+                    <h2>Contact Me</h2>
+                </div>
 
-				<div class="box">
-				<div class="head-icons">
-				<span><i class="bx bx-envelope icons"></i></span>
-				
-				<h3 class="headings"> Email Me</h3>
-                 </div>
-				 <p>ishandhotre26@gmail.com</p>
-                 </div>	
-				 
-				 <div class="box">
-				<div class="head-icons">
-				<span><i class="bx bx-phone-call icons"></i></span>
-				<h3 class="headings"> Call Me </h3>
-                 </div>
-				 <p>+91 8147XXXXXX</p>
-                 </div>	
-				 
-				 <div class="box">
-				<div class="head-icons">
-				<span><i class="bx bx-share-alt icons"></i></span>
-				<h3 class="headings"> My Social Profiles</h3>
-                 </div>
-				 
-				 <p class="social_icons">
-   				<a href="https://www.linkedin.com/in/ishan-dhotre-62ab48242/" target="_blank" class='bx bxl-linkedin'></a>
-				 <a href="/" target="_blank"class='bx bxl-facebook-circle'></a>
-				 <a href="https://instagram.com/ishan_dhotre" target="_blank" class='bx bxl-instagram'></a>
-				 <a href="https://github.com/ishan-26" target="_blank" class="bx bxl-github"></a>
-				 </p>
-                 </div>	
-				 
-				 <div class="formbox">
-            <div class="form">
-                <form action="#">
-                    <input type="text" placeholder="Name" class="short-fields" required>
-                    <input type="email" placeholder="Email" class="short-fields" required>
-                    <input type="text" placeholder="Subject" class="form-control" required>
-                    <textarea name="message" cols="30" rows="5" placeholder="Enter your message" class="form-control" required></textarea>
-                    <button type="submit">Send Message</button>
-                </form>
-            </div>
-        </div>
-	<br>
-				<span class="dividerfoot"></span>
-                 <br>
-                <br>
-				<footer>
-				
-    <p class="copyright">Copyright ©2025 All rights reserved | This wesbite is made by Ishan Dhotre</p>
-</footer>
- 
-				
-				
-				
-				
-				<script src="./autotype.js"></script>
+                <div class="inside_container">
+                    <div class="box">
+                        <div class="head-icons">
+                            <span><i class="bx bx-map icons"></i></span>
+                            <h3 class="headings">My Address</h3>
+                        </div>
+                        <p> Belgaum. KA. India -590005</p>
+                    </div>				 
 
-</Body>
+                    <div class="box">
+                        <div class="head-icons">
+                            <span><i class="bx bx-envelope icons"></i></span>
+                            <h3 class="headings"> Email Me</h3>
+                        </div>
+                        <p>ishandhotre26@gmail.com</p>
+                    </div>	
 
-</Html>
+                    <div class="box">
+                        <div class="head-icons">
+                            <span><i class="bx bx-phone-call icons"></i></span>
+                            <h3 class="headings"> Call Me </h3>
+                        </div>
+                        <p>+91 8147XXXXXX</p>
+                    </div>	
+
+                    <div class="box">
+                        <div class="head-icons">
+                            <span><i class="bx bx-share-alt icons"></i></span>
+                            <h3 class="headings"> My Social Profiles</h3>
+                        </div>
+
+                        <p class="social_icons">
+                            <a href="https://www.linkedin.com/in/ishan-dhotre-62ab48242/" target="_blank" class='bx bxl-linkedin'></a>
+                            <a href="/" target="_blank" class='bx bxl-facebook-circle'></a>
+                            <a href="https://instagram.com/ishan_dhotre" target="_blank" class='bx bxl-instagram'></a>
+                            <a href="https://github.com/ishan-26" target="_blank" class="bx bxl-github"></a>
+                        </p>
+                    </div>	
+
+                    <div class="formbox">
+                        <div class="form">
+                            <form action="#">
+                                <input type="text" placeholder="Name" class="short-fields" required>
+                                <input type="email" placeholder="Email" class="short-fields" required>
+                                <input type="text" placeholder="Subject" class="form-control" required>
+                                <textarea name="message" cols="30" rows="5" placeholder="Enter your message" class="form-control" required></textarea>
+                                <button type="submit">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                    <br>
+                    <span class="dividerfoot"></span>
+                    <br>
+                    <br>
+                    <footer>
+                        <p class="copyright">Copyright ©2025 All rights reserved | This website is made by Ishan Dhotre</p>
+                    </footer>
+
+                    <script src="./autotype.js"></script>
+
+</body>
+
+</html>
