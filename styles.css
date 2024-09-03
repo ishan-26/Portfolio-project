@@ -710,6 +710,10 @@ body, button, input {
   margin-top: 40px;
 }
 
+.app-form-button.cancel {
+  margin-right: 15px; /* Adjust the value as needed */
+}
+
 .app-form-group.buttons {
   margin-bottom: 0;
   text-align: right;
