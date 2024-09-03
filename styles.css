@@ -603,20 +603,32 @@ justify-content: center;
  
 /* Contact and Form Styles */
 
+/* Divider Styles */
+.dividerfoot {
+    width: 100%;
+    height: 5px;
+    background-color: #00ffb7;
+    display: block; /* Changed to block for full-width styling */
+    margin: 20px 0; /* Added margin for spacing */
+}
 
+/* Form Box Styles */
 .formbox {
     width: 300px;
     padding: 20px;
-    margin: 10px;
+    margin: 20px auto; /* Center formbox horizontally */
     text-align: center;
     border: 1px solid #ddd;
     border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: Added box shadow for depth */
 }
 
+/* Form Styles */
 .form {
     text-align: left;
 }
 
+/* Form Input and Button Styles */
 .form input,
 .form textarea,
 .form button {
@@ -626,6 +638,10 @@ justify-content: center;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 1em;
+}
+
+.form textarea {
+    resize: vertical; /* Allow vertical resize only */
 }
 
 .form button {
@@ -639,6 +655,23 @@ justify-content: center;
 .form button:hover {
     background-color: #7a5aaa;
 }
+
+/* Footer Styles */
+footer {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f9f9f9; /* Optional: Add background color */
+    margin-top: 20px; /* Space above footer */
+}
+
+footer p.copyright {
+    margin: 0;
+    color: #9370DB;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
 
 
 /* Profile image adjustments for smaller screens */
@@ -673,17 +706,6 @@ justify-content: center;
 	 width: 49.7%;
  }
  }
-
-  
- .dividerfoot{
-	 width: 100%;
-	 height: 5px;
-	 background-color:#00ffb7;
-	 
-     display: inline-block;
-	 margin-left: 0px;
- }
-
 @media (max-width: 768px) {
     .Profile {
         max-height: 150px; /* Smaller max height for mobile */
