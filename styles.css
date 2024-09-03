@@ -601,43 +601,56 @@ justify-content: center;
 	 grid-row: 3;
  }
  
- .form input,textarea{
-	 padding: 0.6rem 0.5rem;
-	 margin: 0.3rem 0;
-	 outline: none;
-	 font-size: 1.5rem;
-	 background: var(--input-bg);
-	 border: none;
-	 color: #fff;
-	 font-family: "poppins";
-	 
- }
- 
- .form-control{
-	 width: 90%;
- }
- 
- .short-fields{
-	 width: 90%;
- }
- 
- .form button{
-	 
-	 display: block;
-	 margin: 1.5rem auto;
-	 background: #18d26e;
-	 padding: 0.6rem 1.2rem;
-	 cursor: pointer;
-	 border-radius: 04px;
-	 font-size: 1rem;
-	 transition: all 0.3s;
-	 color: #fff;
- }
- 
- .form button:hover{
-	 background: #13a154;
-	 color:#30f8c5;
- }
+/* Contact and Form Styles */
+
+
+.box {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.head-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.headings {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.form {
+    text-align: left;
+}
+
+.form input,
+.form textarea,
+.form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.form button {
+    background-color: #9370DB;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form button:hover {
+    background-color: #7a5aaa;
+}
 
 
 /* Profile image adjustments for smaller screens */
