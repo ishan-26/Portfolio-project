@@ -541,14 +541,14 @@ footer p.copyright {
 
 /* Profile image adjustments for smaller screens */
 @media only screen and (max-width: 768px) {
-    .Profile {
+    .profile {
   	visibilty:hidden;
     }
 }
 
 /* Navigation adjustments for smaller screens */
 @media only screen and (max-width: 768px) {
-    .Nav {
+    .nav {
         padding: 30px 80px; /* Adjust padding for smaller screens */
         justify-content: flex-end; /* Align navigation items to the right */
     }
@@ -572,7 +572,7 @@ footer p.copyright {
  }
  }
 @media (max-width: 768px) {
-    .Profile {
+    .profile {
         max-height: 150px; /* Smaller max height for mobile */
         bottom: 0; /* Remove the bottom positioning */
         margin: 0 auto; /* Centers the image */
