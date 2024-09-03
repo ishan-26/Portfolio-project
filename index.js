@@ -7,7 +7,7 @@ function sendMail() {
     };
 
     const serviceID = "SERVICE_ID"
-    const templateID = "template"
+    const templateID = "TEMPLATE"
 
     emailjs .send(serviceID,templateID,params)
     .then (
