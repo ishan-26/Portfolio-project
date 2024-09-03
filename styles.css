@@ -572,42 +572,43 @@ justify-content: center;
 	 grid-row: 3;
  }
  
- 
- *, *:before, *:after {
+ .contact-form * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+.contact-form body {
   background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%);
   font-size: 12px;
 }
 
-body, button, input {
+.contact-form body, 
+.contact-form button, 
+.contact-form input {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   letter-spacing: 1.4px;
 }
 
-.background {
+.contact-form .background {
   display: flex;
   min-height: 100vh;
 }
 
-.container {
+.contact-form .container {
   flex: 0 1 700px;
   margin: auto;
   padding: 10px;
 }
 
-.screen {
+.contact-form .screen {
   position: relative;
   background: #3e3e3e;
   border-radius: 15px;
 }
 
-.screen:after {
+.contact-form .screen:after {
   content: '';
   display: block;
   position: absolute;
@@ -620,7 +621,7 @@ body, button, input {
   z-index: -1;
 }
 
-.screen-header {
+.contact-form .screen-header {
   display: flex;
   align-items: center;
   padding: 10px 20px;
@@ -629,11 +630,11 @@ body, button, input {
   border-top-right-radius: 15px;
 }
 
-.screen-header-left {
+.contact-form .screen-header-left {
   margin-right: auto;
 }
 
-.screen-header-button {
+.contact-form .screen-header-button {
   display: inline-block;
   width: 8px;
   height: 8px;
@@ -642,23 +643,23 @@ body, button, input {
   background: white;
 }
 
-.screen-header-button.close {
+.contact-form .screen-header-button.close {
   background: #ed1c6f;
 }
 
-.screen-header-button.maximize {
+.contact-form .screen-header-button.maximize {
   background: #e8e925;
 }
 
-.screen-header-button.minimize {
+.contact-form .screen-header-button.minimize {
   background: #74c54f;
 }
 
-.screen-header-right {
+.contact-form .screen-header-right {
   display: flex;
 }
 
-.screen-header-ellipsis {
+.contact-form .screen-header-ellipsis {
   width: 3px;
   height: 3px;
   margin-left: 2px;
@@ -666,21 +667,21 @@ body, button, input {
   background: #999;
 }
 
-.screen-body {
+.contact-form .screen-body {
   display: flex;
 }
 
-.screen-body-item {
+.contact-form .screen-body-item {
   flex: 1;
   padding: 50px;
 }
 
-.screen-body-item.left {
+.contact-form .screen-body-item.left {
   display: flex;
   flex-direction: column;
 }
 
-.app-title {
+.contact-form .app-title {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -688,7 +689,7 @@ body, button, input {
   font-size: 26px;
 }
 
-.app-title:after {
+.contact-form .app-title:after {
   content: '';
   display: block;
   position: absolute;
@@ -699,26 +700,26 @@ body, button, input {
   background: #ea1d6f;
 }
 
-.app-contact {
+.contact-form .app-contact {
   margin-top: auto;
   font-size: 8px;
   color: #888;
 }
 
-.app-form-group {
+.contact-form .app-form-group {
   margin-bottom: 15px;
 }
 
-.app-form-group.message {
+.contact-form .app-form-group.message {
   margin-top: 40px;
 }
 
-.app-form-group.buttons {
+.contact-form .app-form-group.buttons {
   margin-bottom: 0;
   text-align: right;
 }
 
-.app-form-control {
+.contact-form .app-form-control {
   width: 100%;
   padding: 10px 0;
   background: none;
@@ -731,15 +732,15 @@ body, button, input {
   transition: border-color .2s;
 }
 
-.app-form-control::placeholder {
+.contact-form .app-form-control::placeholder {
   color: #666;
 }
 
-.app-form-control:focus {
+.contact-form .app-form-control:focus {
   border-bottom-color: #ddd;
 }
 
-.app-form-button {
+.contact-form .app-form-button {
   background: none;
   border: none;
   color: #ea1d6f;
@@ -748,11 +749,11 @@ body, button, input {
   outline: none;
 }
 
-.app-form-button:hover {
+.contact-form .app-form-button:hover {
   color: #b9134f;
 }
 
-.credits {
+.contact-form .credits {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -763,7 +764,7 @@ body, button, input {
   font-weight: normal;
 }
 
-.credits-link {
+.contact-form .credits-link {
   display: flex;
   align-items: center;
   color: #fff;
@@ -771,42 +772,45 @@ body, button, input {
   text-decoration: none;
 }
 
-.dribbble {
+.contact-form .dribbble {
   width: 20px;
   height: 20px;
   margin: 0 5px;
 }
 
 @media screen and (max-width: 520px) {
-  .screen-body {
+  .contact-form .screen-body {
     flex-direction: column;
   }
 
-  .screen-body-item.left {
+  .contact-form .screen-body-item.left {
     margin-bottom: 30px;
   }
 
-  .app-title {
+  .contact-form .app-title {
     flex-direction: row;
   }
 
-  .app-title span {
+  .contact-form .app-title span {
     margin-right: 12px;
   }
 
-  .app-title:after {
+  .contact-form .app-title:after {
     display: none;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .screen-body {
+  .contact-form .screen-body {
     padding: 40px;
   }
 
-  .screen-body-item {
+  .contact-form .screen-body-item {
     padding: 0;
   }
+}
+
+
 }
 
 /* Profile image adjustments for smaller screens */
