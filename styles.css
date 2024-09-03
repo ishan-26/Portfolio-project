@@ -598,9 +598,9 @@ justify-content: center;
 
 .contact-form .container {
   flex: 0 1 700px;
-  margin: -30px;
+  margin: -20px;
   padding: 30px;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 .contact-form .screen {
