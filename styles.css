@@ -609,7 +609,7 @@ justify-content: center;
     height: 5px;
     background-color: #00ffb7;
     display: block; /* Changed to block for full-width styling */
-    margin: 0px; /* Added margin for spacing */
+ /* Added margin for spacing */
 }
 
 /* Form Box Styles */
@@ -644,8 +644,8 @@ justify-content: center;
 }
 
 .form button {
-    background-color: #9370DB;
-    color: #00ffb7;
+    background-color: #00ffb7;
+    color: #ffffff;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
