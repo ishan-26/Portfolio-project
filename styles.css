@@ -613,18 +613,6 @@ justify-content: center;
     border-radius: 10px;
 }
 
-.head-icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
-.headings {
-    font-size: 1.2em;
-    color: #333;
-}
-
 .form {
     text-align: left;
 }
