@@ -21,7 +21,7 @@ A {
 
     Width: 100%;
     overflow: hidden;
-    Height: 100%;
+    Height: auto;
     Background: Url(black.jpg);
     Background-Size: Cover;
 }
