@@ -602,12 +602,12 @@ justify-content: center;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%);
 }
 
 .contact-form .container {
-flex: 0 1 700px;
+  flex: 0 1 700px;
   margin: 20px auto; /* Center horizontally */
+  margin-top: -50px;
   width: 50%;
 }
 
