@@ -20,9 +20,8 @@ A {
 .Hero {
 
     Width: 100%;
-
-    Height: 580vh;
-	
+    overflow: hidden;
+    Height: 100%;
     Background: Url(black.jpg);
     Background-Size: Cover;
 }
