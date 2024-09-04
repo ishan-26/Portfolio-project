@@ -12,6 +12,14 @@
 
 }
 
+Body {
+  background-image: url('black.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
 
 A {
     Text-Decoration: None;
