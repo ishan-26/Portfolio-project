@@ -818,6 +818,10 @@ justify-content: center;
   .contact-form .app-title:after {
     display: none;
   }
+
+  .contact-form {
+    margin-top: -30px;
+  }
 }
 
 @media screen and (max-width: 600px) {
