@@ -562,7 +562,7 @@ justify-content: center;
 
 
   .social_icons a {
-    font-size: 3rem; /* Increase the font size for larger icons */
+    font-size: 2.5rem; /* Increase the font size for larger icons */
     color: #00ffb7;
     padding: 0 0.5rem; /* Adjust padding if needed */
     cursor: pointer;
@@ -574,7 +574,7 @@ justify-content: center;
 }
 
 .social_icons i {
-    font-size: 3rem !important; /* Increase icon size */
+    font-size: 2.5rem !important; /* Increase icon size */
     color: #00ffb7;
     padding: 0 0.5rem;
     cursor: pointer;
