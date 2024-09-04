@@ -585,6 +585,12 @@ justify-content: center;
     color: #fd4766 !important;
 }
 
+@media screen and (max-width: 520px) {
+  .social_icons a {
+    font-size: 2.5rem; /* Reduce size for smaller screens */
+    padding: 0 0.2rem; /* Reduce padding to fit them in one line */
+  }
+}
  
  .contact-form * {
   box-sizing: border-box;
