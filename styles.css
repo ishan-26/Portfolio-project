@@ -600,14 +600,12 @@ justify-content: center;
 .contact-form .background {
   display: flex;
   min-height: 100vh;
-  justify-content: center;
-  align-items: center;
 }
 
 .contact-form .container {
   flex: 0 1 700px;
   margin: 20px auto;
-  display : block;
+  width: 50%;
   margin-left: 50px;
 }
 
