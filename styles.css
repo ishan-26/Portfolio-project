@@ -598,15 +598,17 @@ justify-content: center;
 }
 
 .contact-form .background {
-  display: flex;
+ display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
+  background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%);
 }
 
 .contact-form .container {
-  flex: 0 1 700px;
-  margin: 20px auto;
+flex: 0 1 700px;
+  margin: 20px auto; /* Center horizontally */
   width: 50%;
-  margin-left: 50px;
 }
 
 .contact-form .screen {
