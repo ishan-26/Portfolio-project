@@ -561,17 +561,18 @@ justify-content: center;
 
 
 
-  .social_icons a{
-	 font-size: 2.5rem;
-	 color: #00ffb7;
-	 padding: 0 0.4rem;
-	 cursor: pointer;
-     transition: 0 0.3s;
- }
- 
- .social_icons a:hover{
-	 color:#fd4766 ;
- }
+  .social_icons a {
+    font-size: 3.5rem; /* Increase the font size for larger icons */
+    color: #00ffb7;
+    padding: 0 0.5rem; /* Adjust padding if needed */
+    cursor: pointer;
+    transition: 0.3s; /* Corrected transition property */
+}
+
+.social_icons a:hover {
+    color: #fd4766;
+}
+
  
  .contact-form * {
   box-sizing: border-box;
