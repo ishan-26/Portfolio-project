@@ -573,11 +573,6 @@ justify-content: center;
 	 color:#fd4766 ;
  }
  
- .box:last-child{
-	 grid-column: 1/3;
-	 grid-row: 3;
- }
- 
  .contact-form * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
