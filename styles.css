@@ -819,10 +819,22 @@ justify-content: center;
     display: none;
   }
 
+  /* New styles for positioning the form closer to the green line */
   .contact-form {
-    margin-top: -30px;
+    margin-top: 0px; /* Remove any margin from the top */
+    padding-bottom: 0px; /* Adjust padding to ensure it's closer */
+  }
+
+  .container {
+    margin-bottom: 0px; /* Remove any margin from the bottom */
+  }
+
+  /* You can further adjust positioning with padding if needed */
+  .contact-form .screen-body-item {
+    padding: 0 10px; /* Add padding if needed to center or align */
   }
 }
+
 
 @media screen and (max-width: 600px) {
   .contact-form .screen-body {
