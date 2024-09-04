@@ -573,6 +573,18 @@ justify-content: center;
     color: #fd4766;
 }
 
+.social_icons i {
+    font-size: 4rem !important; /* Increase icon size */
+    color: #00ffb7;
+    padding: 0 0.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.social_icons i:hover {
+    color: #fd4766 !important;
+}
+
  
  .contact-form * {
   box-sizing: border-box;
